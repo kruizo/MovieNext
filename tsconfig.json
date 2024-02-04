@@ -22,6 +22,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/components/SearchInput.tsx",
+    "app/components/ViewButton.tsx",
+    "app/components/Banner/HomeBanner.tsx",
+    "app/components/Footer.tsx"
+  ],
   "exclude": ["node_modules"]
 }

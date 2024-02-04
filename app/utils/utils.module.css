@@ -1,0 +1,16 @@
+.search {
+  transition: border-color 0.3s ease; /* Smooth transition for the border color change */
+  padding: 0.5rem;
+  background-color: transparent;
+  width: 100%;
+  display: none;
+  /* Define the glow effect on focus */
+}
+@media (min-width: 768px) {
+  .search {
+    display: flex;
+  }
+}
+.search:focus {
+  outline: none;
+}
